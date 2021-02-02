@@ -129,7 +129,9 @@ export const hostmock: HostMock = {
      */
     configuration: {  
         domain:"https://www.exemple.com",
-        apikey:"AZERTY",      
+        apikey:"AZERTY",
+        securitymode: "",
+        secretkey: ""  
     },
     /**
      * This function is called to generate the autoconnect url when using

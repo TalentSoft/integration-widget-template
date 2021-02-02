@@ -16,46 +16,39 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@talentsoft-opensource/display-tool-widget-mock@4.6.1":
-  version "4.6.1"
-  resolved "https://registry.yarnpkg.com/@talentsoft-opensource/display-tool-widget-mock/-/display-tool-widget-mock-4.6.1.tgz#5579cd27a5f252fc60b67d582df1a35087410574"
+"@talentsoft-opensource/display-tool-widget-mock@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@talentsoft-opensource/display-tool-widget-mock/-/display-tool-widget-mock-5.0.0.tgz#a764a04a046bc5403933b85ee657e13337a3cc44"
+  integrity sha512-ugcPHsHbKjQZoUxWI4dEpbD6gl8Vs5HPYHttrY3oWUbPSrgkURQfEDWJpV2B/7V77mfYUF/vBEJ3nphs+iAFUQ==
   dependencies:
-    "@talentsoft-opensource/integration-dll" "4.6.1"
-    "@talentsoft-opensource/integration-widget-contract" "4.6.1"
-    react "16.8.6"
-
-"@talentsoft-opensource/hylia@1.1.7":
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/@talentsoft-opensource/hylia/-/hylia-1.1.7.tgz#b22ba534b5ac06fd3685884d4f623181e63a68e9"
+    "@talentsoft-opensource/integration-widget-contract" "5.0.0"
+    react "^16.12.0"
 
 "@talentsoft-opensource/hylia@4.0.1":
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/@talentsoft-opensource/hylia/-/hylia-4.0.1.tgz#3fdff9e9fa0ef3d91bb4a0fae0c3a81abb699f94"
 
-"@talentsoft-opensource/integration-com-layer@4.6.1":
-  version "4.6.1"
-  resolved "https://registry.yarnpkg.com/@talentsoft-opensource/integration-com-layer/-/integration-com-layer-4.6.1.tgz#9a127f10850031c3a8e792348a5c6e19d6b98e1c"
+"@talentsoft-opensource/integration-com-layer@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@talentsoft-opensource/integration-com-layer/-/integration-com-layer-5.0.0.tgz#b348b45f631e0c3ee9e747d242a3df17fec79463"
+  integrity sha512-xJTLif5d4DMz+e2dvQyyFWPZsUvJmd7f1niYEbwjbPkre+yNQ5PScW6Yg+0ivO4SJvgC5+piWzSOiNnLifPAnw==
   dependencies:
     loglevel "1.6.1"
 
-"@talentsoft-opensource/integration-dll@4.6.1":
-  version "4.6.1"
-  resolved "https://registry.yarnpkg.com/@talentsoft-opensource/integration-dll/-/integration-dll-4.6.1.tgz#ce91ab08a9231a6dce2e5f7fb4af615a712a4337"
+"@talentsoft-opensource/integration-widget-component@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@talentsoft-opensource/integration-widget-component/-/integration-widget-component-5.0.0.tgz#c6702a349064816cae233fed384e9fff6ac3eff7"
+  integrity sha512-SnxrENY89viPj+uzjaD/XMT/rFXUieQHPmlxKyPX2oLUlvD5gcHmTh5LQxjh6KLiz44CpBfXx0vP7n1Tl1ynNg==
   dependencies:
-    react "16.8.6"
-
-"@talentsoft-opensource/integration-widget-component@4.6.1":
-  version "4.6.1"
-  resolved "https://registry.yarnpkg.com/@talentsoft-opensource/integration-widget-component/-/integration-widget-component-4.6.1.tgz#03606e5c8de233112f0a5b8e256ed90d418d2cb8"
-  dependencies:
-    "@talentsoft-opensource/hylia" "1.1.7"
+    "@talentsoft-opensource/hylia" "4.0.1"
     "@talentsoft-opensource/uxp-themes" "3.0.1"
+    "@types/enzyme-adapter-react-16" "^1.0.5"
     classnames "2.2.6"
-    react "16.8.6"
 
-"@talentsoft-opensource/integration-widget-contract@4.6.1":
-  version "4.6.1"
-  resolved "https://registry.yarnpkg.com/@talentsoft-opensource/integration-widget-contract/-/integration-widget-contract-4.6.1.tgz#4cc24b51dc61b6e4356332eb725c079def59e4c8"
+"@talentsoft-opensource/integration-widget-contract@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@talentsoft-opensource/integration-widget-contract/-/integration-widget-contract-5.0.0.tgz#b33f229ff4e3aad4f659411f18db9486527d89ba"
+  integrity sha512-lNdfiE12rtkv3IlyLrJ1PX5G6JUziOSIVnQR9z+iZ+SUhourzlK3NEVV17CbPXg08s2HGcENeH+paw7Z9DZTAQ==
 
 "@talentsoft-opensource/uxp-themes@3.0.1":
   version "3.0.1"
@@ -63,18 +56,18 @@
   dependencies:
     perfect-scrollbar "^1.1.0"
 
-"@talentsoft-opensource/widget-display-tool@4.6.1":
-  version "4.6.1"
-  resolved "https://registry.yarnpkg.com/@talentsoft-opensource/widget-display-tool/-/widget-display-tool-4.6.1.tgz#ca6e2a184fbf005929aecbadcb9adcfe406307e4"
+"@talentsoft-opensource/widget-display-tool@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@talentsoft-opensource/widget-display-tool/-/widget-display-tool-5.0.0.tgz#c4902d80096ff14c81b2daed98760a6c3e9247e8"
+  integrity sha512-gTc8uBMoYuLkp4KQC4AEximx/NMCJ5TcNd9ZyHAXJC9lwfhqvSuz3d0RoDjZLwyitZSWCpL6gOfF0ILm4M3tjg==
   dependencies:
-    "@talentsoft-opensource/display-tool-widget-mock" "4.6.1"
-    "@talentsoft-opensource/integration-com-layer" "4.6.1"
-    "@talentsoft-opensource/integration-dll" "4.6.1"
-    "@talentsoft-opensource/integration-widget-component" "4.6.1"
-    "@talentsoft-opensource/integration-widget-contract" "4.6.1"
+    "@talentsoft-opensource/display-tool-widget-mock" "5.0.0"
+    "@talentsoft-opensource/integration-com-layer" "5.0.0"
+    "@talentsoft-opensource/integration-widget-component" "5.0.0"
+    "@talentsoft-opensource/integration-widget-contract" "5.0.0"
     "@types/express" "4.16.1"
     "@types/node" "10.14.1"
-    "@types/react" "16.8.12"
+    "@types/react" "16.9.56"
     "@types/react-collapsible" "2.2.0"
     "@types/react-dom" "16.8.2"
     "@types/sha1" "1.1.1"
@@ -88,8 +81,8 @@
     less "3.9.0"
     less-loader "4.1.0"
     node-fetch "2.3.0"
-    react "16.8.6"
-    react-dom "16.8.2"
+    react "^16.12.0"
+    react-dom "^16.12.0"
     sha1 "1.1.1"
     string.prototype.padstart "3.0.0"
     style-loader "0.23.1"
@@ -120,6 +113,21 @@
   resolved "https://registry.yarnpkg.com/@types/connect/-/connect-3.4.32.tgz#aa0e9616b9435ccad02bc52b5b454ffc2c70ba28"
   dependencies:
     "@types/node" "*"
+
+"@types/enzyme-adapter-react-16@^1.0.5":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@types/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.0.6.tgz#8aca7ae2fd6c7137d869b6616e696d21bb8b0cec"
+  integrity sha512-VonDkZ15jzqDWL8mPFIQnnLtjwebuL9YnDkqeCDYnB4IVgwUm0mwKkqhrxLL6mb05xm7qqa3IE95m8CZE9imCg==
+  dependencies:
+    "@types/enzyme" "*"
+
+"@types/enzyme@*":
+  version "3.10.8"
+  resolved "https://registry.yarnpkg.com/@types/enzyme/-/enzyme-3.10.8.tgz#ad7ac9d3af3de6fd0673773123fafbc63db50d42"
+  integrity sha512-vlOuzqsTHxog6PV79+tvOHFb6hq4QZKMq1lLD9MaWD1oec2lHTKndn76XOpSwCA0oFTaIbKVPrgM3k78Jjd16g==
+  dependencies:
+    "@types/cheerio" "*"
+    "@types/react" "*"
 
 "@types/enzyme@^3.9.1":
   version "3.10.3"
@@ -230,12 +238,13 @@
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
-"@types/react@16.8.12":
-  version "16.8.12"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.8.12.tgz#ffbdd7bcd2b7037c3f78e26c708922a2befbb71f"
+"@types/react@16.9.56":
+  version "16.9.56"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.56.tgz#ea25847b53c5bec064933095fc366b1462e2adf0"
+  integrity sha512-gIkl4J44G/qxbuC6r2Xh+D3CGZpJ+NdWTItAPmZbR5mUS+JQ8Zvzpl0ea5qT/ZT3ZNTUcDKUVqV3xBE8wv/DyQ==
   dependencies:
     "@types/prop-types" "*"
-    csstype "^2.2.0"
+    csstype "^3.0.2"
 
 "@types/serve-static@*":
   version "1.13.3"
@@ -1578,6 +1587,11 @@ cssstyle@^1.0.0:
 csstype@^2.2.0:
   version "2.6.6"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.6.tgz#c34f8226a94bbb10c32cc0d714afdf942291fc41"
+
+csstype@^3.0.2:
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.6.tgz#865d0b5833d7d8d40f4e5b8a6d76aea3de4725ef"
+  integrity sha512-+ZAmfyWMT7TiIlzdqJgjMb7S4f1beorDbWbsocyK4RaiqA5RTX3K14bnBWmmA9QEM0gRdsjyyrEmcyga8Zsxmw==
 
 cyclist@^1.0.1:
   version "1.0.1"
@@ -5261,15 +5275,6 @@ react-custom-scrollbars@^4.2.1:
     prop-types "^15.5.10"
     raf "^3.1.0"
 
-react-dom@16.8.2:
-  version "16.8.2"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.8.2.tgz#7c8a69545dd554d45d66442230ba04a6a0a3c3d3"
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-    prop-types "^15.6.2"
-    scheduler "^0.13.2"
-
 react-dom@^15.6.1:
   version "15.6.2"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-15.6.2.tgz#41cfadf693b757faf2708443a1d1fd5a02bef730"
@@ -5279,14 +5284,15 @@ react-dom@^15.6.1:
     object-assign "^4.1.0"
     prop-types "^15.5.10"
 
-react-dom@^16.8.5:
-  version "16.10.2"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.10.2.tgz#4840bce5409176bc3a1f2bd8cb10b92db452fda6"
+react-dom@^16.12.0:
+  version "16.14.0"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.14.0.tgz#7ad838ec29a777fb3c75c3a190f661cf92ab8b89"
+  integrity sha512-1gCeQXDLoIqMgqD3IO2Ah9bnf0w9kzhwN5q4FGnHZ67hBm9yePzB5JJAIQCc8x3pFnNlwFq4RidZggNAAkzWWw==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-    scheduler "^0.16.2"
+    scheduler "^0.19.1"
 
 react-is@^16.8.1, react-is@^16.8.6, react-is@^16.9.0:
   version "16.10.2"
@@ -5305,15 +5311,6 @@ react-truncate@^2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/react-truncate/-/react-truncate-2.4.0.tgz#3cf5ff09ab86f93e3c078d359f4de6d75aa60510"
 
-react@16.8.6:
-  version "16.8.6"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-    prop-types "^15.6.2"
-    scheduler "^0.13.6"
-
 react@^15.6.1:
   version "15.6.2"
   resolved "https://registry.yarnpkg.com/react/-/react-15.6.2.tgz#dba0434ab439cfe82f108f0f511663908179aa72"
@@ -5323,6 +5320,15 @@ react@^15.6.1:
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
     prop-types "^15.5.10"
+
+react@^16.12.0:
+  version "16.14.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
+  integrity sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
 
 react@^16.5.2:
   version "16.10.2"
@@ -5617,16 +5623,17 @@ sax@^1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
 
-scheduler@^0.13.2, scheduler@^0.13.6:
-  version "0.13.6"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.13.6.tgz#466a4ec332467b31a91b9bf74e5347072e4cd889"
+scheduler@^0.16.2:
+  version "0.16.2"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.16.2.tgz#f74cd9d33eff6fc554edfb79864868e4819132c1"
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
 
-scheduler@^0.16.2:
-  version "0.16.2"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.16.2.tgz#f74cd9d33eff6fc554edfb79864868e4819132c1"
+scheduler@^0.19.1:
+  version "0.19.1"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.19.1.tgz#4f3e2ed2c1a7d65681f4c854fa8c5a1ccb40f196"
+  integrity sha512-n/zwRWRYSUj0/3g/otKDRPMh6qv2SYMWNq85IEa8iZyAv8od9zDYpGSnpBEjNgcMNq6Scbu5KfIPxNF72R/2EA==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"

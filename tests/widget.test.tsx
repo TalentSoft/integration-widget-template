@@ -10,14 +10,12 @@ describe('Widget', () => {
         setDataIsLoaded: () => jest.fn(),
         openUrlInNewTab: (url: string) => jest.fn(),
         openUrlInCurrentTab: (url: string) => jest.fn(),
-        getUrlForCurrentContext: (url: string) => Promise.resolve(""),
         requestExternalResource: (options: RequestOptions) => Promise.resolve({headers: {"": undefined}, status: 200, body: ""}),
         requestInternalResource: (options: RequestOptions) => Promise.resolve({headers: {"": undefined}, status: 200, body: ""}),
         raiseError: () => {}, 
         setHeaderActionConfiguration: (configuration: HeaderActionConfiguration) => jest.fn(),
         widgetIsEnlarged: () => false,
-        getPreloadedResources: () => {return {}},
-        getRedirectUrl: () => Promise.resolve("")
+        getPreloadedResources: () => {return {}}
     };
 
     var params: { [name: string]: string; } = {};
