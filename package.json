@@ -47,7 +47,7 @@
     "winston": "^3.1.0"
   },
   "devDependencies": {
-    "@talentsoft-opensource": "5.0.0",
+    "@talentsoft-opensource/integration-widget-contract": "5.0.0",
     "@talentsoft-opensource/widget-display-tool": "5.0.0",
     "@types/highcharts": "^5.0.31",
     "clean-webpack-plugin": "^0.1.19",
