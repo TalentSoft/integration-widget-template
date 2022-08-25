@@ -64,7 +64,7 @@ export const hostmock: HostMock = {
                 name: "My expense report 2",
                 amount: 20,
                 date: "02/02/2018",
-                description: "my expense for food 2 zeoeijfozi fiozjf iozejfi de zejfio jzeiofjzeo ifjzeoi ziojfo zjiofeiofjzeiof oizjfioze jofiz oifzejiof",
+                description: "my expense for food 2",
                 status: Status.Validated
             },
             {

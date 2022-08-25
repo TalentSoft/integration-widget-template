@@ -1,7 +1,7 @@
 import { mount, shallow } from 'enzyme';
 import * as React from 'react';
 import { Widget } from '../app/widget';
-import { WidgetProps, MyTSHostService, RequestOptions, HeaderActionConfiguration, DashboardScope } from "@talentsoft-opensource/integration-widget-contract/dist/widget-contract-myts"
+import { WidgetProps, MyTSHostService, RequestOptions, HeaderActionConfiguration, DashboardScope, TrackEventOptions } from "@talentsoft-opensource/integration-widget-contract/dist/widget-contract-myts"
 
 describe('Widget', () => {
     const myTSHostService: MyTSHostService = {
@@ -11,11 +11,14 @@ describe('Widget', () => {
         openUrlInNewTab: (url: string) => jest.fn(),
         openUrlInCurrentTab: (url: string) => jest.fn(),
         requestExternalResource: (options: RequestOptions) => Promise.resolve({headers: {"": undefined}, status: 200, body: ""}),
+        downloadExternalResource: (options: RequestOptions) => Promise.resolve({headers: {"": undefined}, status: 200, body: ""}),
         requestInternalResource: (options: RequestOptions) => Promise.resolve({headers: {"": undefined}, status: 200, body: ""}),
         raiseError: () => {}, 
         setHeaderActionConfiguration: (configuration: HeaderActionConfiguration) => jest.fn(),
         widgetIsEnlarged: () => false,
-        getPreloadedResources: () => {return {}}
+        getPreloadedResources: () => {return {}},
+        requestInternalResourceAsArrayBuffer: (options:RequestOptions) => Promise.resolve({headers: {"": undefined}, status: 200, body: new ArrayBuffer(1)}),
+        trackEvent: (trackEventOptions: TrackEventOptions) => {return {}}
     };
 
     var params: { [name: string]: string; } = {};

@@ -1,6 +1,6 @@
 export enum ValueType {
-    Date,
-    Text,
-    Tag,
-    Status
+  Date,
+  Text,
+  Tag,
+  Status,
 }
